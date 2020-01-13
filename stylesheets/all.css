@@ -1,0 +1,577 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+/* line 3, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_base_grid.scss */
+.wrapper {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /home/frolin/.rvm/gems/ruby-2.6.3/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
+  .wrapper:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/* line 12, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_base_grid.scss */
+#sidebar {
+  width: 18.82353%;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+  text-align: center;
+  position: fixed; }
+
+/* line 21, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_base_grid.scss */
+#main {
+  width: 58.82353%;
+  float: left;
+  margin-left: 20%;
+  margin-right: -100%;
+  padding: 0 2rem; }
+
+/* line 29, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_base_grid.scss */
+.main-menu {
+  margin: 0;
+  padding: 0; }
+
+/* line 38, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_base_grid.scss */
+.main-menu {
+  width: 18.82353%;
+  float: left;
+  margin-right: 1.17647%;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+/* line 1, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight table td {
+  padding: 5px; }
+
+/* line 2, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight table pre {
+  margin: 0; }
+
+/* line 3, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight {
+  color: #faf6e4;
+  background-color: #122b3b; }
+
+/* line 7, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .gl {
+  color: #dee5e7;
+  background-color: #4e5d62; }
+
+/* line 11, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .gp {
+  color: #a8e1fe;
+  font-weight: bold; }
+
+/* line 15, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm, .highlight .cpf, .highlight .c1, .highlight .cs {
+  color: #6c8b9f;
+  font-style: italic; }
+
+/* line 19, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .cp {
+  color: #b2fd6d;
+  font-weight: bold; }
+
+/* line 23, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .err {
+  color: #fefeec;
+  background-color: #cc0000; }
+
+/* line 27, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .gr {
+  color: #cc0000;
+  font-weight: bold;
+  font-style: italic; }
+
+/* line 32, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .k, .highlight .kd, .highlight .kv {
+  color: #f6dd62;
+  font-weight: bold; }
+
+/* line 36, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .o, .highlight .ow {
+  color: #4df4ff;
+  font-weight: bold; }
+
+/* line 40, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .p, .highlight .pi {
+  color: #4df4ff; }
+
+/* line 43, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .gd {
+  color: #cc0000; }
+
+/* line 46, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .gi {
+  color: #b2fd6d; }
+
+/* line 49, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .ge {
+  font-style: italic; }
+
+/* line 52, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .gs {
+  font-weight: bold; }
+
+/* line 55, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .gt {
+  color: #dee5e7;
+  background-color: #4e5d62; }
+
+/* line 59, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .kc {
+  color: #f696db;
+  font-weight: bold; }
+
+/* line 63, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .kn {
+  color: #ffb000;
+  font-weight: bold; }
+
+/* line 67, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .kp {
+  color: #ffb000;
+  font-weight: bold; }
+
+/* line 71, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .kr {
+  color: #ffb000;
+  font-weight: bold; }
+
+/* line 75, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .gh {
+  color: #ffb000;
+  font-weight: bold; }
+
+/* line 79, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .gu {
+  color: #ffb000;
+  font-weight: bold; }
+
+/* line 83, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .kt {
+  color: #b2fd6d;
+  font-weight: bold; }
+
+/* line 87, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .no {
+  color: #b2fd6d;
+  font-weight: bold; }
+
+/* line 91, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .nc {
+  color: #b2fd6d;
+  font-weight: bold; }
+
+/* line 95, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .nd {
+  color: #b2fd6d;
+  font-weight: bold; }
+
+/* line 99, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .nn {
+  color: #b2fd6d;
+  font-weight: bold; }
+
+/* line 103, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .bp {
+  color: #b2fd6d;
+  font-weight: bold; }
+
+/* line 107, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .ne {
+  color: #b2fd6d;
+  font-weight: bold; }
+
+/* line 111, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .nl {
+  color: #ffb000;
+  font-weight: bold; }
+
+/* line 115, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .nt {
+  color: #ffb000;
+  font-weight: bold; }
+
+/* line 119, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mx {
+  color: #f696db;
+  font-weight: bold; }
+
+/* line 123, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .ld {
+  color: #f696db;
+  font-weight: bold; }
+
+/* line 127, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .ss {
+  color: #f696db;
+  font-weight: bold; }
+
+/* line 131, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .s, .highlight .sa, .highlight .sb, .highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .sr, .highlight .s1 {
+  color: #fff0a6;
+  font-weight: bold; }
+
+/* line 135, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .se {
+  color: #4df4ff;
+  font-weight: bold; }
+
+/* line 139, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .sc {
+  color: #4df4ff;
+  font-weight: bold; }
+
+/* line 143, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .si {
+  color: #4df4ff;
+  font-weight: bold; }
+
+/* line 147, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .nb {
+  font-weight: bold; }
+
+/* line 150, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .ni {
+  color: #999999;
+  font-weight: bold; }
+
+/* line 154, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .w {
+  color: #BBBBBB; }
+
+/* line 157, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .go {
+  color: #BBBBBB; }
+
+/* line 160, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .nf, .highlight .fm {
+  color: #a8e1fe; }
+
+/* line 163, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .py {
+  color: #a8e1fe; }
+
+/* line 166, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .na {
+  color: #a8e1fe; }
+
+/* line 169, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight .nv, .highlight .vc, .highlight .vg, .highlight .vi, .highlight .vm {
+  color: #a8e1fe;
+  font-weight: bold; }
+
+/* line 173, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight {
+  border-radius: 5px; }
+
+/* line 178, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight.ruby {
+  padding: 0rem .5rem;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+/* line 186, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/syntax_highlight.css.erb */
+.highlight.shell {
+  padding: 0 .5rem;
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  font-family: "Anonymous Pro"; }
+
+/* line 5, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 106, /home/frolin/.rvm/gems/ruby-2.6.3/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 137.5%;
+  line-height: 1.5em; }
+
+/* line 21, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Pt Sans", sans-serif; }
+
+/* line 31, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+#main {
+  margin-top: 33px;
+  margin-top: 1.5rem;
+  margin-bottom: 33px;
+  margin-bottom: 1.5rem; }
+
+/* line 39, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+img {
+  width: 100%;
+  margin: auto;
+  display: block;
+  margin-bottom: 33px;
+  margin-bottom: 1.5rem; }
+
+/* line 47, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+.highlight {
+  margin-bottom: 33px;
+  margin-bottom: 1.5rem; }
+
+/* line 51, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+.post {
+  border-bottom-width: 2px;
+  border-bottom-width: 0.09091rem;
+  border-bottom-style: solid;
+  padding-bottom: -2px;
+  padding-bottom: -0.09091rem;
+  margin-bottom: 66px;
+  margin-bottom: 3rem; }
+
+/* line 56, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+a {
+  text-decoration: none; }
+
+/* line 60, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+ul {
+  list-style-type: none; }
+
+/* line 64, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+a:visited {
+  color: inherit; }
+
+/* line 68, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+h1 {
+  font-size: 69px;
+  font-size: 3.157rem;
+  line-height: 99px;
+  line-height: 4.5rem; }
+
+/* line 72, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+h2 {
+  font-size: 52px;
+  font-size: 2.369rem;
+  line-height: 66px;
+  line-height: 3rem; }
+
+/* line 76, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+h3 {
+  font-size: 39px;
+  font-size: 1.777rem;
+  line-height: 66px;
+  line-height: 3rem; }
+
+/* line 80, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+h4 {
+  font-size: 25px;
+  font-size: 1.133rem;
+  line-height: 33px;
+  line-height: 1.5rem; }
+
+/* line 84, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+h5 {
+  font-size: 22px;
+  font-size: 1rem;
+  line-height: 33px;
+  line-height: 1.5rem; }
+
+/* line 88, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+h6 {
+  font-size: 17px;
+  font-size: 0.75rem;
+  line-height: 33px;
+  line-height: 1.5rem; }
+
+/* line 92, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+h1, h2, p, iframe, img {
+  margin-bottom: 33px;
+  margin-bottom: 1.5rem; }
+
+/* line 96, /home/frolin/Projects/exsisto_blog/source/stylesheets/typography/_base_typography.scss */
+.small {
+  font-size: 17px;
+  font-size: 0.75rem;
+  line-height: 33px;
+  line-height: 1.5rem;
+  display: block; }
+
+/* line 1, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_posts.scss */
+.post_title {
+  float: left; }
+
+/* line 5, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_posts.scss */
+.post_author {
+  float: right;
+  clear: right; }
+
+/* line 10, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_posts.scss */
+.post_tags {
+  float: right; }
+
+/* line 14, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_posts.scss */
+.post_body {
+  clear: both; }
+
+/* line 3, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_categories.scss */
+.category-image {
+  width: 50%;
+  margin: 0 auto; }
+
+/* line 8, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_categories.scss */
+.category-post {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, /home/frolin/.rvm/gems/ruby-2.6.3/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
+  .category-post:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/* line 12, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_categories.scss */
+.category__post_image {
+  width: 24%;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%; }
+
+/* line 16, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_categories.scss */
+.category__post_tags {
+  width: 16%;
+  float: left;
+  margin-left: 84%;
+  margin-right: -100%; }
+
+/* line 20, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_categories.scss */
+.category__post_author {
+  width: 16%;
+  float: left;
+  margin-left: 84%;
+  margin-right: -100%; }
+
+/* line 24, /home/frolin/Projects/exsisto_blog/source/stylesheets/layouts/_categories.scss */
+.category__post_article {
+  width: 56%;
+  float: left;
+  margin-left: 26%;
+  margin-right: -100%; }
+
+/* line 6, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.header__logo {
+  font-family: "Anonymous Pro";
+  margin-bottom: 0; }
+
+/* line 12, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.main-menu {
+  font-family: "Anonymous Pro";
+  text-align: right; }
+
+/* line 17, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.main-menu > a {
+  display: inline-block;
+  color: grey; }
+
+/* line 23, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.menu-tags {
+  font-family: "Anonymous Pro";
+  padding: 0 0 0 105px;
+  text-align: left; }
+
+/* line 32, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.menu-tags a {
+  letter-spacing: 2px;
+  color: white;
+  text-decoration: none;
+  background: #757575;
+  padding: 3px; }
+
+/* line 42, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.post {
+  border-style: dashed;
+  border-color: #929292; }
+
+/* line 48, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.post_title {
+  font-family: "Pt Sans"; }
+
+/* line 53, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.breadcrumb {
+  font-family: "Anonymous Pro";
+  word-spacing: -1px; }
+
+/* line 58, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.breadcrumb .separator {
+  padding: 0 10px; }
+
+/* line 62, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.breadcrumb .category {
+  text-decoration: underline; }
+
+/* line 66, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.post_author {
+  color: grey; }
+
+/* line 72, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.post_tags {
+  font-family: "Anonymous Pro";
+  color: #FDFDFD;
+  background: rebeccapurple; }
+
+/* line 79, /home/frolin/Projects/exsisto_blog/source/stylesheets/_styles.scss */
+.post_body {
+  font-family: "Pt Sans"; }
